@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/menu_dark"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bg_sel"
+        android:text="发起群聊"
+        android:onClick="popupDismiss"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/icon_group"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bg_sel"
+        android:text="添加朋友"
+        android:onClick="popupDismiss"
+        android:drawableLeft="@mipmap/icon_add"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/icon_scan"
+        android:background="@drawable/item_bg_sel"
+        android:text="扫一扫"
+        android:onClick="popupDismiss"
+        android:clickable="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bg_sel"
+        android:text="收付款"
+        android:onClick="popupDismiss"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/icon_card"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="popupDismiss"
+        android:drawableLeft="@mipmap/icon_help"
+        android:background="@drawable/item_bg_sel"
+        android:text="帮助与反馈"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>
